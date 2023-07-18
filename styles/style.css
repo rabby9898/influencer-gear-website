@@ -63,6 +63,7 @@ header{
     border-radius: 2.75rem;
     background: #E02C6D;
     border: none;
+    color: #fff;
 }
 /* media query for Small Devices */
 @media screen and (max-width: 576px) {
@@ -117,6 +118,45 @@ header{
     .banner-img{
         background-position: center;
         background-size: 400px 400px;
+    }
+      
+}
+/* sponsor styles */
+section{
+    padding: 50px 120px;
+}
+.sponsor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-items: baseline;
+    padding: 0px 70px;
+}
+.sponsor img{
+    width: 115px;
+}
+/* media query for Small Devices */
+@media screen and (max-width: 576px) {
+    section{
+        padding: 0px 20px;
+    }
+    .sponsor{
+        flex-wrap: wrap;
+        padding: 30px 20px;
+        margin: 0px 0px;
+        gap: 16px;
+    }
+    .sponsor img{
+        width: 55px;
+    }
+}
+/* medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .sponsor{
+        gap: 40px;
+    }
+    .sponsor img{
+        width: 65px;
     }
       
 }
