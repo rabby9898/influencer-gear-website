@@ -99,6 +99,7 @@ header{
         background-size: 350px 350px;
     }
 }
+/* medium devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {
     header{
         padding: 50px 50px;
